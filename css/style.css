@@ -1,0 +1,29 @@
+body
+{
+    background-color: azure;
+    color: grey;
+}
+h1
+{
+    color:brown;
+}
+
+p
+{
+    color :blueviolet;
+}
+.Aventador-Image
+{
+    background: blueviolet;
+    width: 220px;
+    height: 116px;
+    margin: 0px 100px 0px 240px;
+    padding: 3px;
+}
+
+.Huracan-Image
+{
+    background: blueviolet;
+    width: 27%;
+    margin-left: 30%
+}
