@@ -17,7 +17,7 @@
 
 .menu
 {
-    width: 900px;
+    width: 71%;
     display:flex;
     justify-content: space-between;
 }
@@ -30,7 +30,7 @@
 
 .login
 {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .header-container
@@ -43,8 +43,8 @@
 
 .header
 {
-    width: 900px;
-    height: 300px;
+    width: 66%;
+    height: 270px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +111,7 @@
 
 .footer-container
 {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     display: flex;
     justify-content: center;
 }
@@ -126,31 +126,38 @@
 .footer-item
 {
     background-color: #D6E9FE;
-    border: 1px solid #fff;
     height: 180px;
     flex: 1;
 }
 
-.footer-three
+.footer-three, .footer-one
+{
+    background-color: #5995DA;
+    flex:initial;
+    width: 300px;
+}
+
+.footer-login
 {
     display: flex;
-    flex-direction: column;
+    color:crimson;
+    justify-content: center;
+    background-color:steelblue;
 }
 
-.footer3-cont
+.footer-links
 {
-    background-color: royalblue;
-    border: 1px solid red;
-    height: 60px;
-    flex:1;
+    display: flex;
+    height: 30px;
+    width: 90%;
 }
 
-.ft3cont1
+.fsignup
 {
-    flex:2;
+    margin-left: auto;
 }
 
-.footer-three
+.flogin
 {
-    flex:2;
+    margin-left: 30px;
 }
