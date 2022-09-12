@@ -4,11 +4,7 @@ let substr = str.split("");
 
 substr[0] = 'y';
 
-let p = substr[0];
+let ass = substr.toString().replace(/,/g,"");
 
-let assembled = substr.toString();
-
-let ass = assembled.replace(/,/g,"");
-
-console.log(p);
+console.log(substr.toString());
 console.log(ass);
